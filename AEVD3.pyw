@@ -107,11 +107,11 @@ def aboutapp():
 #Main Screen
 master = Tk()
 master.configure()
-icon = PhotoImage(file = 'L:/python apps/Videos Downloader/logo2.png')
+icon = PhotoImage(file = 'logo2.png')
 master.iconphoto(False, icon)
 master.title("ArabEagles Videos Downloader")
 master.resizable(width=False, height=False)
-bgimage = ImageTk.PhotoImage(Image.open('L:/python apps/Videos Downloader/logo222.png'))
+bgimage = ImageTk.PhotoImage(Image.open('logo222.png'))
 Label(master, image = bgimage).place(relwidth = 1, relheight = 1)
 
 # Creat Menu
